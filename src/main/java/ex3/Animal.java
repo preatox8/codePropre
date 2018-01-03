@@ -1,19 +1,24 @@
 package ex3;
 
-/** Classe détaillant les caractéritiques des animaux
+/**
+ * Classe détaillant les caractéristiques des animaux
+ * 
  * @author ETY2
  *
  */
 public class Animal {
-	
+
 	protected String nom;
 	protected String type;
 	protected String comportement;
-	
+
 	/**
-	 * @param nom paramètre nom
-	 * @param type paramètre type
-	 * @param comportement paramètre comportement
+	 * @param nom
+	 *            paramètre nom
+	 * @param type
+	 *            paramètre type
+	 * @param comportement
+	 *            paramètre comportement
 	 */
 	public Animal(String nom, String type, String comportement) {
 		super();
@@ -30,7 +35,8 @@ public class Animal {
 	}
 
 	/**
-	 * @param type the type to set
+	 * @param type
+	 *            the type to set
 	 */
 	public void setType(String type) {
 		this.type = type;
@@ -44,7 +50,8 @@ public class Animal {
 	}
 
 	/**
-	 * @param nom the nom to set
+	 * @param nom
+	 *            the nom to set
 	 */
 	public void setNom(String nom) {
 		this.nom = nom;
@@ -58,11 +65,11 @@ public class Animal {
 	}
 
 	/**
-	 * @param comportement the comportement to set
+	 * @param comportement
+	 *            the comportement to set
 	 */
 	public void setComportement(String comportement) {
 		this.comportement = comportement;
 	}
-	
-	
+
 }

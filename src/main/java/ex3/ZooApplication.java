@@ -75,7 +75,7 @@ public class ZooApplication {
 			case 2:
 				zoo.afficherListeAnimaux();
 				break;
-
+		
 			/**
 			 * Quitter l'application
 			 * 

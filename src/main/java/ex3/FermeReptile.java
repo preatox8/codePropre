@@ -9,8 +9,11 @@ import java.util.List;
  */
 public class FermeReptile extends Zone {
 
+	private double coef = 0.1;
+
+	
 	@Override
 	public double calculerKgsNourritureParJour() {
-		return animaux.size() * 0.1;
+		return animaux.size() * coef;
 	}
 }

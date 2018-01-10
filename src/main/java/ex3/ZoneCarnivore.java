@@ -9,8 +9,10 @@ import java.util.List;
  */
 public class ZoneCarnivore extends Zone {
 
+	private int coef = 10;
+	
 	@Override
 	public double calculerKgsNourritureParJour() {
-		return animaux.size() * 10;
+		return animaux.size() * coef;
 	}
 }
